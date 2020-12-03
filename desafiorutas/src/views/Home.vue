@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <Navbar/>
+   
   </div>
 </template>
 
@@ -8,10 +9,11 @@
 // @ is an alias to /src
 import Navbar from '@/components/Navbar.vue'
 
+
 export default {
   name: 'Home',
   components: {
-    Navbar
+    Navbar,
   }
 }
 </script>
